@@ -2,7 +2,7 @@ from django.db import models
 from django.utils import timezone
 
 # Create your models here.
-class RrimerModelo(models.Model):
+class PrimerModelo(models.Model):
     campo_uno = models.CharField(max_length=255, null = True)
     edad = models.IntegerField(null=True, default=0)
     created = models.DateTimeField(default=timezone.now)
